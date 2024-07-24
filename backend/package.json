@@ -1,0 +1,19 @@
+{
+    "name": "uniworld_omniport",
+    "version": "1.0.0",
+    "description": "Backend for e-commerce application",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "bull": "^4.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "ioredis": "^4.17.3",
+        "mysql": "^2.18.1",
+        "mysql2": "^3.10.3"
+    }
+}
